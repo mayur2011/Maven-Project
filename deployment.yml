@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: gagandeepthinknyx/dell-app1
+        image: dockermayur123/dell-app1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -32,4 +32,4 @@ spec:
     targetPort: 8080
     nodePort: 31000 
   selector:
-    app: myapp 
+    app: myapp
